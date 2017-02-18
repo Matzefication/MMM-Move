@@ -7,8 +7,6 @@
 
 Module.register("MMM-Move", {
 	defaults : {
-		echoPin: "",
-		triggerPin: "",
         text: "Hello world!"
 	},
 	  
