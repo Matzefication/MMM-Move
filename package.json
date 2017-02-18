@@ -1,0 +1,34 @@
+{
+  "name": "MMM-Move",
+  "version": "1.1.0",
+  "description": "Ultrasonic distance sensor module for the Magic Mirror.",
+  "main": "MMM-Move.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Matzefication/MMM-Move.git"
+  },
+  "keywords": [
+    "Magic Mirror",
+    "Smart Mirror",
+    "Distance-Sensor",
+    "Module",
+    "Motion"
+  ],
+  "author": "Mathias Kaniut",
+  "contributors": "https://github.com/Matzefication/MMM-Move/graphs/contributors",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Matzefication/MMM-Move/issues"
+  },
+  "homepage": "https://github.com/Matzefication/MMM-Move#readme",
+  "scripts": {
+    "postinstall": "node_modules/.bin/electron-rebuild -e ../../node_modules/electron"
+  },
+  "dependencies": {
+    "math-statistics": "latest",
+    "mmm-usonic": "latest"
+  },
+  "devDependencies": {
+    "electron-rebuild": "^1.2.1"
+  }
+}
