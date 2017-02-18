@@ -26,7 +26,7 @@
   },
   "dependencies": {
     "math-statistics": "latest",
-    "mmm-gpio": "latest"
+    "mmm-usonic": "latest"
   },
   "devDependencies": {
     "electron-rebuild": "^1.2.1"

@@ -7,7 +7,7 @@
 
 var NodeHelper = require("node_helper");
 var statistics = require('math-statistics');
-var usonic = require('mmm-gpio');
+var usonic = require('mmm-usonic');
 
 module.exports = NodeHelper.create({
 	// Override start method.
