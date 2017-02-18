@@ -20,11 +20,10 @@
   },
   "homepage": "https://github.com/Matzefication/MMM-Move#readme",
   "scripts": {
-    "postinstall": "node_modules/.bin/electron-rebuild -e ../../node_modules/electron-prebuilt"
+    "postinstall": "./node_modules/.bin/electron-rebuild"
   },
   "dependencies": {
-    "mmm-usonic": "latest",
-    "mmm-gpio": "latest"
+    "mmm-usonic": "latest"
   },
   "devDependencies": {
     "electron-rebuild": "^1.2.1"

@@ -9,7 +9,6 @@
 
 const NodeHelper = require('node_helper');
 const usonic = require('mmm-usonic');
-const gpio = require('mmm-gpio');
 
 module.exports = NodeHelper.create({
 	start: function () {
@@ -20,13 +19,6 @@ module.exports = NodeHelper.create({
 			} else {
 				self.initSensor();
             }
-		});	
-		gpio.init(function (error) {
-			if (error) {
-				console.log(error);
-			} else {
-				self.initSensor();
-			}
 		});
 	},
 	
